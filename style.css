@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template: 
+    'header1   header1' 40px
+    'header2   header2' 50px
+    'page1      page1' auto
+    'page2      page2' auto
+    'page3      page3' auto
+    'page4      page5' 520px
+    'page6      page7' 520px
+    'page8      page9' 520px
+    'footer     footer' auto /
+    auto         auto ;
+
+}
+
+@media screen and (max-width: 768px){
+    body{
+        grid-template: 
+    'header-mobile' 40px
+    'header2' 50px
+    'page1' auto
+    'page2' auto
+    'page3' auto
+    'page4' 520px
+    'page5' 520px
+    'page6' 520px
+    'page7' 520px
+    'page8' 520px
+    'page9' 520px
+    'footer' auto /
+    auto ;
+    }
+    .header1{
+        display: none;
+    }
+    .header-mobile{
+        display: block;
+    }
+    footer{
+        grid-template: 
+    'top' auto
+    'middle' auto
+    'bottom' auto /
+     1fr ;
+    }
+}

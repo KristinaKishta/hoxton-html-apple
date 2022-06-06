@@ -1,0 +1,215 @@
+.page1{
+    grid-area: page1;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+.upper{
+    display: grid;
+    place-items: center;
+    gap: 10px
+}
+.page1 h2{
+    padding-top: 20px;
+    font-size: 50px;
+}
+.page1 h3{
+    font-size: 23px;
+    font-weight: 1;
+    font-family: sans-serif;
+}
+.links{
+    font-family: sans-serif;
+    display: grid;
+    grid-auto-flow: column;
+    font-family: sans-serif;
+    gap: 50px;
+    transform: translatex(-10px);   
+}
+.page2{
+    grid-area: page2;
+    background-color: #35283c;
+}
+
+.page2 h2{
+    font-size: 50px;
+    color: white;
+    padding-top: 20px;
+}
+.page2 h3{
+    font-size: 30px;
+    color: #fec2eb;
+}
+
+.page3{
+    grid-area: page3;
+    display: grid;
+    place-items: center;
+    background-color: #e4e4eb;
+}
+.page3 h2{
+    font-size: 50px;
+    color: black;
+    padding-top: 20px;
+}
+.page3 h3{
+    font-size: 26px;
+    color: #000000e1;
+}
+
+
+.macbook{
+    padding-top: 20px;
+}
+.page4{
+    grid-area: page4;
+    display: grid;
+    place-items: center;
+    background-color: #fbfbfd;
+    margin: 10px;
+}
+.page4 h2{
+    font-size: 40px;
+    color: black;
+    padding-top: 10px;
+}
+.page4 h3{
+    font-size: 20px;
+    color: #000000e1;
+}
+.bottom-page4{
+    display: grid;
+    place-items: center;
+    gap: 10px;
+}
+
+.page5{
+    grid-area: page5;
+    justify-items: center;
+    background-color: #fbfbfd;
+    margin: 10px;
+}
+.main-part{
+    display: grid;
+    place-items: center;
+    gap: 15px;
+}
+.page5 p{
+    font-family: sans-serif;
+    color: #d9966d;
+    padding-top: 20px;
+    font-size: 13px;
+}
+.page5 img{
+    width: 150px
+}
+.page5 h3{
+    color: #d03238;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.page5 h4{
+    font-weight: 30;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #3f8bd8;
+}
+
+.page6{
+    grid-area: page6;
+    justify-items: center;
+    background-color: #fbfbfd;
+    margin: 10px;
+}
+.homepod-mini{
+    display: grid;
+    place-items: center;
+    gap: 15px;
+}
+.page6 h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: black;
+    padding-top: 20px;
+}
+.page6 h6{
+    font-family: sans-serif;
+    color: #b9b9bc;
+}
+
+.page7{
+    grid-area: page7;
+    background-color: #fbfbfd;
+    justify-items: center;
+    margin: 10px;
+}
+.the-whole-part{
+    display: grid;
+    place-items: center;
+    gap: 15px;
+}
+.ipad-mini{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    padding-top: 20px;
+}
+.ipad-mini h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 72px;
+}
+.mini-gradient{
+    background: -webkit-linear-gradient(left, #ff7487, #8747fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Galada';
+}
+
+.page8{
+    grid-area: page8;
+    background-color: #fbfbfd;
+    justify-items: center;
+    margin: 10px;
+}
+.the-whole-part-1{
+    display: grid;
+    place-items: center;
+    gap: 15px;
+}
+.apple-card{
+    display: grid;
+    place-items: center;
+    gap: 20px;
+}
+
+
+.page9{
+    grid-area: page9;
+    background-color: #fe8d28;
+    justify-items: center;
+    margin: 10px;
+}
+
+.apple-tv{
+    display: grid;
+    place-items: center;
+    gap: 250px;
+}
+.upper2{
+    padding-top: 50px;
+}
+.end{
+    display: grid;
+    gap: 7px;
+    justify-items: center;
+}
+.end h5{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 20;
+
+}
